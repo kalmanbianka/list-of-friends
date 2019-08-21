@@ -1,11 +1,11 @@
 <div class="app-component">
   <h3>List of Friends</h3>
-  <div class="friend-component">
-    <h4>Name:</h4>
+  <div class="friend-component" [class.male] = "friend.gender === 'male'" [class.female] = "friend.gender === 'female'" >
+    <h4>Name: {{friend.name}} </h4>
     <ul>
-      <li>Nickname:</li>
-      <li>Gender:</li>
-      <li>Age:</li>
+      <li>Nickname: {{friend.nickname}} </li>
+      <li>Gender: {{friend.gender}} </li>
+      <li>Age: {{friend.age}} </li>
       
     </ul>
   </div>

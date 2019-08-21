@@ -1,5 +1,11 @@
 .app-component{
     .friend-component{
+        &.male{
+            background: lightblue;
+        }
+        &.female{
+            background: lightpink;
+        }
         width: 300px;
         font-family: fantasy;
         ul{
