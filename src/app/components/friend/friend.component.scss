@@ -1,0 +1,17 @@
+.friend-component{
+    &.male{
+        background: lightblue;
+    }
+    &.female{
+        background: lightpink;
+    }
+    width: 300px;
+    font-family: fantasy;
+    ul{
+        list-style-type: none;
+        li{
+            margin: 10px 0;
+            border-bottom: 1px dotted black;
+        }
+    }
+}

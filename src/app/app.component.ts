@@ -7,5 +7,4 @@ import { Friend } from '../model/friend';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  friend = new Friend('Laura', 'female', 'Lala', 23);
 }
