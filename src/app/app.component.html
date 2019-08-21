@@ -1,4 +1,4 @@
 <div class="app-component">
   <h3>List of Friends</h3>
-  <app-friend></app-friend>
+  <app-friend *ngFor="let friendItem of friendsList" [friend]="friendItem" ></app-friend>
 </div>

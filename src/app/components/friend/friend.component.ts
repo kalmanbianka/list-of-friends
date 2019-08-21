@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Friend } from 'src/model/friend';
 
 
@@ -8,7 +8,7 @@ import { Friend } from 'src/model/friend';
   styleUrls: ['./friend.component.scss']
 })
 export class FriendComponent implements OnInit {
-  friend = new Friend('Laura', 'female', 'Lala', 23);
+  @Input() friend = new Friend('', '', '', 0);
   constructor() { }
 
   ngOnInit() {
